@@ -10,7 +10,7 @@ describe("Visits the Calendly page, starts a game", () => {
     //cy.contains('#table')
   });
 
-  it("completes a 3x3 game winningon a horizontal row", () => {
+  it("completes a 3x3 game winning on a horizontal row", () => {
     cy.reload();
     cy.get("#number").type("3");
     cy.get("#start").click();
