@@ -9,6 +9,8 @@ Steps to view the tests:
 5. In one window, run: `npx cypress open`
 6. In the other window, run: `npx http-server`
 
+Next, in the browser go to: `http://192.168.0.84:8080/`
+
 Once the Cypress window opens, follow the instructions below:
 1. Click the E2E Testing window
 2. Click the green Start E2E Testing in Chrome button
